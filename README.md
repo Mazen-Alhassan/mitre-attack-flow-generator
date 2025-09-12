@@ -2,7 +2,7 @@
 
 A sophisticated Python tool that generates visual attack flow diagrams based on the MITRE ATT&CK framework. This tool helps cybersecurity professionals visualize and understand attack paths targeting different assets and security properties.
 
-![Attack Flow Example](database_confidentiality_attack_graph.png)
+![Database Confidentiality Attack Flow](database_confidentiality_attack_graph.png)
 
 ## 🚀 Features
 
@@ -17,7 +17,9 @@ A sophisticated Python tool that generates visual attack flow diagrams based on 
 ## 📋 Supported Attack Scenarios
 
 ### Database Attacks
+
 **Confidentiality Breaches:**
+
 - SQL Injection Attack Flows
 - Credential Theft Campaigns
 - Insider Threat Scenarios
@@ -26,6 +28,7 @@ A sophisticated Python tool that generates visual attack flow diagrams based on 
 - Physical Access Attacks
 
 **Integrity Compromises:**
+
 - Stored Data Manipulation
 - Backup Restoration Poisoning
 - ETL Pipeline Tampering
@@ -33,7 +36,9 @@ A sophisticated Python tool that generates visual attack flow diagrams based on 
 - Replication Channel Abuse
 
 ### Web Application Attacks
+
 **Integrity Impacts:**
+
 - External/Internal Defacement
 - Runtime Data Manipulation
 - Cache Poisoning Attacks
@@ -41,6 +46,7 @@ A sophisticated Python tool that generates visual attack flow diagrams based on 
 - Supply Chain Widget Compromises
 
 **Confidentiality Breaches:**
+
 - Session Hijacking Campaigns
 - Token Forgery Attacks
 - Client-Side Data Harvesting
@@ -57,11 +63,13 @@ A sophisticated Python tool that generates visual attack flow diagrams based on 
 ## ⚡ Quick Start
 
 ### Interactive Mode
+
 ```bash
 python attack_graph_generator.py
 ```
 
 ### Command Line Mode
+
 ```bash
 # Generate all database confidentiality attacks
 python attack_graph_generator.py -a database -s confidentiality
@@ -74,6 +82,7 @@ python attack_graph_generator.py -a database -s integrity -o my_attack_graph --c
 ```
 
 ### List Available Options
+
 ```bash
 python attack_graph_generator.py --list
 ```
@@ -81,6 +90,7 @@ python attack_graph_generator.py --list
 ## 📊 Output Examples
 
 The tool generates professional attack flow diagrams showing:
+
 - **Attack progression paths** from initial access to final impact
 - **MITRE ATT&CK technique mappings** with official IDs
 - **Color-coded attack vectors** for easy visual distinction
@@ -88,6 +98,7 @@ The tool generates professional attack flow diagrams showing:
 - **Hierarchical layout** showing attack complexity
 
 ### Generated Files
+
 - `*.png` - High-resolution visualization (300 DPI)
 - `*.json` - Machine-readable graph data with metadata
 
@@ -102,11 +113,11 @@ The tool generates professional attack flow diagrams showing:
 ## 🔧 Command Line Options
 
 ```bash
-usage: attack_graph_generator.py [-h] [-a {database,web_application}] 
-                                [-s {confidentiality,integrity,availability}] 
-                                [--list] [-o OUTPUT] 
-                                [--label-mode {short,id,name,full}] 
-                                [--hide-legend] [--compact] 
+usage: attack_graph_generator.py [-h] [-a {database,web_application}]
+                                [-s {confidentiality,integrity,availability}]
+                                [--list] [-o OUTPUT]
+                                [--label-mode {short,id,name,full}]
+                                [--hide-legend] [--compact]
                                 [--attacks ATTACKS [ATTACKS ...]]
 
 Generate MITRE ATT&CK attack flow graphs
@@ -126,6 +137,7 @@ optional arguments:
 ## 🏗 Architecture
 
 The tool uses a modular architecture with:
+
 - **AttackGraphGenerator**: Core class managing MITRE techniques and path generation
 - **Graph Builder**: NetworkX integration for attack flow construction
 - **Visualization Engine**: Matplotlib-based rendering with professional styling
@@ -134,15 +146,16 @@ The tool uses a modular architecture with:
 ## 🔒 Security Research Applications
 
 This tool supports various cybersecurity research activities:
+
 - **Vulnerability Assessment**: Map potential attack vectors
-- **Defense Strategy**: Understand attack progression for better countermeasures  
+- **Defense Strategy**: Understand attack progression for better countermeasures
 - **Incident Response**: Analyze attack patterns and attribution
 - **Security Architecture**: Design systems with attack path awareness
 
 ## 📈 Future Enhancements
 
 - Network infrastructure attack flows
-- Cloud security scenarios  
+- Cloud security scenarios
 - IoT device attack patterns
 - Advanced persistent threat (APT) modeling
 - Integration with threat intelligence feeds

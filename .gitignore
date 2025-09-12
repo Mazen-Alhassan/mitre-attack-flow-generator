@@ -20,6 +20,7 @@ Thumbs.db
 
 # Project specific
 *.png
+!database_confidentiality_attack_graph.png
 *.json
 test_*
 temp_*
