@@ -4,7 +4,7 @@ A Python tool that generates visual attack flow diagrams based on the MITRE ATT&
 
 ![Database Confidentiality Attack Flow](database_confidentiality_attack_graph.png)
 
-## 🚀 Features
+## Features
 
 - **Multi-Asset Support**: Generate attack flows for databases and web applications
 - **Security Property Analysis**: Focus on confidentiality, integrity, or availability impacts
@@ -14,7 +14,7 @@ A Python tool that generates visual attack flow diagrams based on the MITRE ATT&
 - **JSON Export**: Machine-readable graph data for integration with other tools
 - **Customizable Output**: Multiple label modes, compact layouts, and styling options
 
-## 📋 Supported Attack Scenarios
+## Supported Attack Scenarios
 
 ### Database Attacks
 
@@ -52,7 +52,7 @@ A Python tool that generates visual attack flow diagrams based on the MITRE ATT&
 - Client-Side Data Harvesting
 - API Abuse Scenarios
 
-## 🛠 Technical Stack
+## Technical Stack
 
 - **Python 3.7+**
 - **NetworkX**: Graph generation and analysis
@@ -60,7 +60,7 @@ A Python tool that generates visual attack flow diagrams based on the MITRE ATT&
 - **JSON**: Structured data export
 - **Argparse**: Command-line interface
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Interactive Mode
 
@@ -87,7 +87,7 @@ python attack_graph_generator.py -a database -s integrity -o my_attack_graph --c
 python attack_graph_generator.py --list
 ```
 
-## 📊 Output Examples
+## Output Examples
 
 The tool generates professional attack flow diagrams showing:
 
@@ -102,7 +102,7 @@ The tool generates professional attack flow diagrams showing:
 - `*.png` - High-resolution visualization (300 DPI)
 - `*.json` - Machine-readable graph data with metadata
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Threat Modeling**: Visualize potential attack paths during system design
 - **Security Training**: Educational material for cybersecurity awareness
@@ -110,7 +110,7 @@ The tool generates professional attack flow diagrams showing:
 - **Risk Assessment**: Identify high-risk attack vectors for prioritized defense
 - **Compliance Documentation**: Visual evidence of threat landscape understanding
 
-## 🔧 Command Line Options
+## Command Line Options
 
 ```bash
 usage: attack_graph_generator.py [-h] [-a {database,web_application}]
@@ -134,7 +134,7 @@ optional arguments:
   --attacks            Specific attack paths to include
 ```
 
-## 🏗 Architecture
+## Architecture
 
 The tool uses a modular architecture with:
 
@@ -143,7 +143,7 @@ The tool uses a modular architecture with:
 - **Visualization Engine**: Matplotlib-based rendering with professional styling
 - **Export System**: JSON serialization for data portability
 
-## 🔒 Security Research Applications
+## Security Research Applications
 
 This tool supports various cybersecurity research activities:
 
@@ -152,7 +152,7 @@ This tool supports various cybersecurity research activities:
 - **Incident Response**: Analyze attack patterns and attribution
 - **Security Architecture**: Design systems with attack path awareness
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - Network infrastructure attack flows
 - Cloud security scenarios
@@ -160,11 +160,11 @@ This tool supports various cybersecurity research activities:
 - Advanced persistent threat (APT) modeling
 - Integration with threat intelligence feeds
 
-## 🤝 Contributing
+## Contributing
 
 This tool was developed to advance cybersecurity research and education. Contributions for additional attack scenarios, MITRE technique updates, and visualization improvements are welcome.
 
-## 📜 License
+## License
 
 This project is for educational and research purposes in cybersecurity.
 
