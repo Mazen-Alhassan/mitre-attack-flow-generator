@@ -1,6 +1,6 @@
 # MITRE ATT&CK Flow Generator
 
-A sophisticated Python tool that generates visual attack flow diagrams based on the MITRE ATT&CK framework. This tool helps cybersecurity professionals visualize and understand attack paths targeting different assets and security properties.
+A Python tool that generates visual attack flow diagrams based on the MITRE ATT&CK framework. This tool helps cybersecurity professionals visualize and understand attack paths targeting different assets and security properties.
 
 ![Database Confidentiality Attack Flow](database_confidentiality_attack_graph.png)
 
@@ -170,4 +170,4 @@ This project is for educational and research purposes in cybersecurity.
 
 ---
 
-**Developed by Mazen Alhassan** - Cybersecurity Researcher & Developer
+**Developed by Mazen Alhassan** 
